@@ -27,11 +27,17 @@ public class javaBasics {
         System.out.println(c);
     }
 
+    public void mul(int a,int b){
+        int c=a*b;
+        System.out.println(c);
+    }
+
     public static void main(String[] args) {
         javaBasics obj=new javaBasics();
         obj.add();
         obj.addition(10,20);
         obj.addition(30,40);
         javaBasics.sub(30,20);
+        obj.mul(10,20);
     }
 }
